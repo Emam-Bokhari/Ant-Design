@@ -1,8 +1,25 @@
-import { Button, Tooltip } from "antd";
+import { Button, Dropdown, Tooltip } from "antd";
 import { Fragment } from "react";
 import { SearchOutlined } from "@ant-design/icons";
 
 export default function ButtonComponent() {
+  const items = [
+    {
+      key: "1",
+      label: "Add",
+    },
+    {
+      key: "2",
+      label: "Edit",
+    },
+    {
+      key: "3",
+      label: "Delete",
+    },
+  ];
+  function handleMenuClick(event) {
+    console.log("Click Button");
+  }
   return (
     <Fragment>
       {/* button type */}
@@ -72,6 +89,15 @@ export default function ButtonComponent() {
       <Button type="primary" size="large">
         Large Size
       </Button>
+      <hr style={{ margin: "16px 0" }} />
+      <Dropdown.Button
+        menu={{
+          items,
+          onClick: handleMenuClick,
+        }}
+      >
+        Actions
+      </Dropdown.Button>
     </Fragment>
   );
 }
