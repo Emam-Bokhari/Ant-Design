@@ -63,6 +63,15 @@ export default function ButtonComponent() {
         Text Disabled
       </Button>
       <hr style={{ margin: "16px 0" }} />
+      <Button type="primary" size="middle">
+        Default Size
+      </Button>
+      <Button type="primary" size="small">
+        Small Size
+      </Button>
+      <Button type="primary" size="large">
+        Large Size
+      </Button>
     </Fragment>
   );
 }
