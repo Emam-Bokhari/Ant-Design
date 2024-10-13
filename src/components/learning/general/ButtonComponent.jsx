@@ -90,6 +90,7 @@ export default function ButtonComponent() {
         Large Size
       </Button>
       <hr style={{ margin: "16px 0" }} />
+      {/* dropdown button */}
       <Dropdown.Button
         menu={{
           items,
@@ -99,15 +100,30 @@ export default function ButtonComponent() {
         Actions
       </Dropdown.Button>
       <hr style={{ margin: "16px 0" }} />
+      {/* ghost, danger */}
       <Button type="primary" ghost>
         Ghost
       </Button>
       <Button type="danger" danger ghost>
         Danger Ghost
       </Button>
-      <Button type="danger" danger >
+      <Button type="danger" danger>
         Danger Ghost
       </Button>
+      <Button variant="outlined" color="primary">
+        Ghost
+      </Button>
+      {/* block */}
+      <hr style={{ margin: "16px 0" }} />
+      <Button type="primary" block>
+        Block Primary
+      </Button>
+
+      <div style={{ width: "500px" }}>
+        <Button variant="solid" color="danger" block>
+          Block Danger
+        </Button>
+      </div>
     </Fragment>
   );
 }
