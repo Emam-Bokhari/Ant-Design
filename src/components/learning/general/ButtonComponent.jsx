@@ -1,5 +1,6 @@
-import { Button } from "antd";
+import { Button, Tooltip } from "antd";
 import { Fragment } from "react";
+import { SearchOutlined } from "@ant-design/icons";
 
 export default function ButtonComponent() {
   return (
@@ -30,6 +31,26 @@ export default function ButtonComponent() {
       <Button color="danger" variant="text">
         Text
       </Button>
+      <hr style={{ margin: "16px 0" }} />
+      {/* icon */}
+      <Tooltip title="Search">
+        <Button type="primary" shape="circle" icon={<SearchOutlined />} />
+      </Tooltip>
+      <Tooltip title="Search">
+        <Button type="primary" iconPosition="start" icon={<SearchOutlined />}>
+          Search
+        </Button>
+      </Tooltip>
+      <Tooltip title="Search">
+        <Button type="primary" iconPosition="end" icon={<SearchOutlined />}>
+          Search
+        </Button>
+      </Tooltip>
+      <Tooltip title="Loading">
+        <Button type="primary" loading>
+          Loading
+        </Button>
+      </Tooltip>
     </Fragment>
   );
 }
