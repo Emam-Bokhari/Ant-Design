@@ -98,6 +98,16 @@ export default function ButtonComponent() {
       >
         Actions
       </Dropdown.Button>
+      <hr style={{ margin: "16px 0" }} />
+      <Button type="primary" ghost>
+        Ghost
+      </Button>
+      <Button type="danger" danger ghost>
+        Danger Ghost
+      </Button>
+      <Button type="danger" danger >
+        Danger Ghost
+      </Button>
     </Fragment>
   );
 }
