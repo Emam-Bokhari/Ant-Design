@@ -51,6 +51,18 @@ export default function ButtonComponent() {
           Loading
         </Button>
       </Tooltip>
+      <hr style={{ margin: "16px 0" }} />
+      {/* disabled */}
+      <Button type="primary" disabled>
+        Primary Disabled
+      </Button>
+      <Button type="link" disabled>
+        Link Disabled
+      </Button>
+      <Button type="text" disabled>
+        Text Disabled
+      </Button>
+      <hr style={{ margin: "16px 0" }} />
     </Fragment>
   );
 }
