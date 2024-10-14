@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import TypographyComponent from "./components/learning/general/TypographyComponent";
+import FormComponent from "./components/learning/date-entry/FormComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <TypographyComponent />
+      <FormComponent />
     </Fragment>
   );
 }

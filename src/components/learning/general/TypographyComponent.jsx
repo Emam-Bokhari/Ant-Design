@@ -90,6 +90,7 @@ export default function TypographyComponent() {
         blanditiis fugit iusto alias magnam rerum totam tempore tenetur
         praesentium. Est.
       </Paragraph>
+
     </Fragment>
   );
 }
