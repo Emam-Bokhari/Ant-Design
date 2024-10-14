@@ -34,7 +34,18 @@ export default function FloatButtonComponent() {
         style={{ insetInlineEnd: 315 }}
       />
       {/* description */}
-      <FloatButton icon={<FileTextOutlined />} style={{ insetInlineEnd: 415 }} type="primary" description="HTML" />
+      <FloatButton
+        icon={<FileTextOutlined />}
+        style={{ insetInlineEnd: 415 }}
+        type="primary"
+        description="HTML"
+      />
+      {/* tooltip */}
+      <FloatButton
+        tooltip="Custeomer Service"
+        icon={<CustomerServiceOutlined />}
+        style={{ insetInlineEnd: 480 }}
+      />
     </Fragment>
   );
 }
