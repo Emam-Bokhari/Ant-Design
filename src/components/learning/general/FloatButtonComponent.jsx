@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import { QuestionCircleOutlined } from "@ant-design/icons";
 import { CustomerServiceOutlined } from "@ant-design/icons";
 import { FileTextOutlined } from "@ant-design/icons";
+import { NotificationOutlined } from "@ant-design/icons";
 
 export default function FloatButtonComponent() {
   return (
@@ -50,6 +51,9 @@ export default function FloatButtonComponent() {
       />
       {/* backtop */}
       <FloatButton.BackTop  />
+      {/* badge */}
+      <FloatButton icon={<NotificationOutlined/>} style={{insetInlineEnd:94}} badge={{count:4}} />
+      <FloatButton type="primary" icon={<NotificationOutlined/>} style={{insetInlineEnd:634}} badge={{count:4,color:"blue"}} />
      </div>
     </Fragment>
   );
