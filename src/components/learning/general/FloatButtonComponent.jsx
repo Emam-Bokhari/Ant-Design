@@ -7,13 +7,15 @@ import { FileTextOutlined } from "@ant-design/icons";
 export default function FloatButtonComponent() {
   return (
     <Fragment>
-      {/* basic float button */}
-      <FloatButton onClick={() => console.log("Click Here")} />
+     <div style={{height:"300vh"}} >
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore velit architecto nihil consequatur qui facere, nulla atque ad eligendi, vel commodi sequi saepe accusantium nam libero asperiores nostrum veritatis. Fuga!</p>
+       {/* basic float button */}
+       <FloatButton onClick={() => console.log("Click Here")} />
       {/* type */}
       <FloatButton
         icon={<QuestionCircleOutlined />}
         type="primary"
-        style={{ insetInlineEnd: 94 }}
+        style={{ insetInlineEnd: 560 }}
       />
       <FloatButton
         icon={<QuestionCircleOutlined />}
@@ -46,6 +48,9 @@ export default function FloatButtonComponent() {
         icon={<CustomerServiceOutlined />}
         style={{ insetInlineEnd: 480 }}
       />
+      {/* backtop */}
+      <FloatButton.BackTop  />
+     </div>
     </Fragment>
   );
 }
