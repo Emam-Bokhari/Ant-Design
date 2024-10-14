@@ -3,6 +3,7 @@ import Title from "antd/es/typography/Title";
 import { Typography } from "antd";
 import { Fragment } from "react";
 const { Text, Link } = Typography;
+import { SmileFilled, SmileOutlined } from "@ant-design/icons";
 
 export default function TypographyComponent() {
   return (
@@ -43,6 +44,52 @@ export default function TypographyComponent() {
       <Link href="https://google.com" target="_blank">
         Ant Design link
       </Link>
+      {/* copyable text/paragraph */}
+      <br />
+      <br />
+      <br />
+      <Text copyable>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+        praesentium maiores sunt repellat sint et aut iure aliquam adipisci
+        assumenda officiis quidem, est atque veniam quibusdam eaque quam facere
+        sit?
+      </Text>
+      <Paragraph copyable>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        labore autem harum, consequuntur veniam molestias commodi error
+        provident consequatur neque corrupti facere sapiente velit sed, ducimus
+        voluptatum aperiam necessitatibus iure.
+      </Paragraph>
+      <Paragraph copyable={{ text: "Say Hello World!" }}>
+        Replace a copy text
+      </Paragraph>
+      <Paragraph
+        copyable={{
+          icon: [
+            <SmileOutlined key="copy-icon" />,
+            <SmileFilled key="copyed-icon" />,
+          ],
+        }}
+      >
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt
+        id exercitationem sint corporis odio, voluptatem perferendis iste error,
+        blanditiis fugit iusto alias magnam rerum totam tempore tenetur
+        praesentium. Est.
+      </Paragraph>
+      <Paragraph
+        copyable={{
+          icon: [
+            <SmileOutlined key="copy-icon" />,
+            <SmileFilled key="copyed-icon" />,
+          ],
+          tooltips: ["Click Here", "You Clicked"],
+        }}
+      >
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt
+        id exercitationem sint corporis odio, voluptatem perferendis iste error,
+        blanditiis fugit iusto alias magnam rerum totam tempore tenetur
+        praesentium. Est.
+      </Paragraph>
     </Fragment>
   );
 }
