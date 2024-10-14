@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import ButtonComponent from "./components/learning/general/ButtonComponent";
+import FloatButtonComponent from "./components/learning/general/FloatButtonComponent";
 
-export default function App(){
-  return(
+export default function App() {
+  return (
     <Fragment>
-      <ButtonComponent/>
+      <FloatButtonComponent />
     </Fragment>
-  )
+  );
 }

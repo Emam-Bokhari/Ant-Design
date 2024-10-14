@@ -118,12 +118,12 @@ export default function ButtonComponent() {
       <Button type="primary" block>
         Block Primary
       </Button>
-
-      <div style={{ width: "500px" }}>
-        <Button variant="solid" color="danger" block>
+      <div style={{ width: "500px"}}>
+        <Button  variant="solid" color="danger" block>
           Block Danger
         </Button>
       </div>
+
     </Fragment>
   );
 }
