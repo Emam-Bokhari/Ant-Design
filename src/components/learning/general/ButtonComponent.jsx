@@ -24,6 +24,7 @@ export default function ButtonComponent() {
     <Fragment>
       {/* button type */}
       <Button>Default</Button>
+							<Button>Test</Button>
       <Button type="dashed">Dashed</Button>
       <Button type="link">Link</Button>
       <Button type="primary">Primary</Button>
