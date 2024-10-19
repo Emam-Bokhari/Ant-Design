@@ -41,10 +41,15 @@ export default function FormComponent() {
           ]}
         >
           <Input.Password />
-          <Form.Item name="remember" valuePropName="checked" >
-            <Checkbox>Remember me</Checkbox>
-          </Form.Item>
         </Form.Item>
+
+        <Form.Item name="remember" valuePropName="checked" wrapperCol={{
+            offset:8,
+            span:16
+        }}>
+          <Checkbox>Remember me</Checkbox>
+        </Form.Item>
+
         <Form.Item
           wrapperCol={{
             offset: 8,
@@ -56,6 +61,7 @@ export default function FormComponent() {
           </Button>
         </Form.Item>
       </Form>
+      
     </Fragment>
   );
 }

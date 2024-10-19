@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import FormComponent from "./components/learning/date-entry/FormComponent";
+import BreadcrumbComponent from "./components/learning/navigation/BreadcrumbComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <FormComponent />
+      <BreadcrumbComponent/>
     </Fragment>
   );
 }
