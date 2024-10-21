@@ -55,6 +55,22 @@ export default function BreadcrumbComponent() {
           { title: "An Application" },
         ]}
       />
+      {/* parmas */}
+      <Breadcrumb
+        items={[
+          {
+            title: "Home",
+          },
+          {
+            title: <a href="#">Application Center</a>,
+          },
+          {
+            title: "Users",
+          },
+          { title: ":id" },
+        ]}
+        params={{ id: 11 }}
+      />
     </Fragment>
   );
 }
