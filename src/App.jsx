@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import BreadcrumbComponent from "./components/learning/navigation/BreadcrumbComponent";
+import InputComponent from "./components/learning/date-entry/InputComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <BreadcrumbComponent/>
+      <InputComponent />
     </Fragment>
   );
 }
