@@ -1,5 +1,6 @@
 import { Input, Select } from "antd";
 import { Option } from "antd/es/mentions";
+const { Search } = Input;
 import { Fragment } from "react";
 
 export default function InputComponent() {
@@ -45,6 +46,8 @@ export default function InputComponent() {
       />
       <Input addonBefore={seleftBefore} />
       <Input addonBefore={seleftBefore}  addonAfter={selectAfter} />
+      {/* search box */}
+      <Search placeholder="Search here..." style={{width:"200px"}} />
     </Fragment>
   );
 }
