@@ -45,9 +45,12 @@ export default function InputComponent() {
         }
       />
       <Input addonBefore={seleftBefore} />
-      <Input addonBefore={seleftBefore}  addonAfter={selectAfter} />
+      <Input addonBefore={seleftBefore} addonAfter={selectAfter} />
       {/* search box */}
-      <Search placeholder="Search here..." style={{width:"200px"}} />
+      <Search placeholder="Search here..." style={{ width: "200px" }} />
+      <Search placeholder="Search here..." enterButton="Search" />
+      <Search placeholder="Search here..." enterButton="Search" allowClear />
+      <Search placeholder="Search here..." enterButton="Search" size="large" />
     </Fragment>
   );
 }
