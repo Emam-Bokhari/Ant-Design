@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import FloatButtonComponent from "./components/Mission/General/FloatButton/Practice/FloatButtonComponent";
+import TypographyComponent from "./components/Mission/General/Typography/Practice/TypographyComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <FloatButtonComponent />
+      <TypographyComponent />
     </Fragment>
   );
 }
