@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import TypographyComponent from "./components/Mission/General/Typography/Learning/TypographyComponent";
+import ButtonComponent from "./components/Mission/General/Button/Practice/ButtonComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <TypographyComponent />
+      <ButtonComponent />
     </Fragment>
   );
 }
