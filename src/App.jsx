@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import TypographyComponent from "./components/Mission/General/Typography/Practice/TypographyComponent";
+import ColorPickerComponent from "./components/Mission/Data-Entry/ColorPicker/Learning/ColorPickerComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <TypographyComponent />
+      <ColorPickerComponent />
     </Fragment>
   );
 }
