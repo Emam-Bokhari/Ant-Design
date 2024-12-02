@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import ColorPickerComponent from "./components/Mission/Data-Entry/ColorPicker/Learning/ColorPickerComponent";
+import DatePickerComponent from "./components/Mission/Data-Entry/DatePicker/Learning/DatePickerComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <ColorPickerComponent />
+      <DatePickerComponent />
     </Fragment>
   );
 }
