@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import InputComponent from "./components/Mission/Data-Entry/Input/Learning/InputComponent";
+import InputNumberComponent from "./components/Mission/Data-Entry/InputNumber/Learning/InputNumberComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <InputComponent />
+      <InputNumberComponent />
     </Fragment>
   );
 }
