@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import InputNumberComponent from "./components/Mission/Data-Entry/InputNumber/Learning/InputNumberComponent";
+import RadioComponent from "./components/Mission/Data-Entry/Radio/Learning/RadioComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <InputNumberComponent />
+      <RadioComponent />
     </Fragment>
   );
 }
