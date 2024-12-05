@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import RadioComponent from "./components/Mission/Data-Entry/Radio/Learning/RadioComponent";
+import TimePickerComponent from "./components/Mission/Data-Entry/TimePicker/Learning/TimePickerComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <RadioComponent />
+      <TimePickerComponent />
     </Fragment>
   );
 }
