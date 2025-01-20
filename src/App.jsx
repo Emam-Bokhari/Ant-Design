@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import DatePickerComponent from "./components/Final/DatePickerComponent";
+import InputComponent from "./components/Final/InputComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <DatePickerComponent />
+      <InputComponent />
     </Fragment>
   );
 }
