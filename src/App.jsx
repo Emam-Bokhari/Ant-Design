@@ -1,11 +1,10 @@
 import { Fragment } from "react";
-import TimePickerComponent from "./components/Mission/Data-Entry/TimePicker/Learning/TimePickerComponent";
-import CheckboxComponent from "./components/Final/CheckboxComponent";
+import DatePickerComponent from "./components/Final/DatePickerComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <CheckboxComponent />
+      <DatePickerComponent />
     </Fragment>
   );
 }
