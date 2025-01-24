@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import CardComponent from "./components/Final/CardComponent";
+import GridComponent from "./components/Final/GridComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <CardComponent />
+      <GridComponent />
     </Fragment>
   );
 }
