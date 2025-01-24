@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import InputNumberComponent from "./components/Final/InputNumberComponent";
+import CardComponent from "./components/Final/CardComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <InputNumberComponent />
+      <CardComponent />
     </Fragment>
   );
 }

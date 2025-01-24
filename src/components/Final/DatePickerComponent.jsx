@@ -1,4 +1,4 @@
-import { DatePicker } from "antd";
+import { Button, DatePicker } from "antd";
 import { Fragment } from "react";
 
 export default function DatePickerComponent() {
@@ -19,6 +19,7 @@ export default function DatePickerComponent() {
       {/* status */}
       <DatePicker picker="date" status="error" />
       <DatePicker picker="month" disabled />
+      <Button type="primary">Appointments</Button>
     </Fragment>
   );
 }
