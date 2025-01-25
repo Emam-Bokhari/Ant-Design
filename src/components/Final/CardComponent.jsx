@@ -1,14 +1,4 @@
-import {
-  Button,
-  Card,
-  Col,
-  Flex,
-  Image,
-  Row,
-  Space,
-  theme,
-  Typography,
-} from "antd";
+import { Button, Card, Col, Image, Row, theme, Typography } from "antd";
 import { Fragment } from "react";
 import creditCard from "../../assets/icon/creditCard.png";
 import freeDelivery from "../../assets/icon/freeDelivery.png";

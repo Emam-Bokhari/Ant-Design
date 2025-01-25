@@ -9,6 +9,7 @@ createRoot(document.getElementById("root")).render(
     <ConfigProvider
       theme={{
         token: {
+          // globally
           colorPrimaryBg: "#FAF4F1",
           colorPrimary: "#415be7",
           colorText: "#000000",
@@ -19,7 +20,9 @@ createRoot(document.getElementById("root")).render(
           fontSizeHeading3: "22px",
           fontSizeHeading4: "20px",
           fontSizeHeading5: "18px",
+          // fontSize: "16px",
         },
+        // component wise
         components: {
           Typography: {
             fontSize: "16px",
